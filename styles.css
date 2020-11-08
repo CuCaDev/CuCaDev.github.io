@@ -1,0 +1,16 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: black;
+  font-family: verdana;
+  text-align: center;
+  border: 2px solid tomato
+}
+h2 {
+  color:tomato;
+  text-align:center;
+}
+p {
+color: black;
+}
