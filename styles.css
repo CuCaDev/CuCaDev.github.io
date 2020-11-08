@@ -35,3 +35,9 @@ td {
   border-collapse: collapse;
   text-align: center;
 }
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
