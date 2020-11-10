@@ -20,6 +20,7 @@ nav ul {
   overflow: hidden;
   background-color: #333333;
   margin: 0;
+  display: inline-block;
 }
 nav li {
   float: left;
