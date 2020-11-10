@@ -1,69 +1,48 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: powderblue;
-  background-image: url("/pattern.jpg");
+  font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
-  color: blue;
-  font-family: Edwardian Script ITC;
+header {
+  background-color: #666;
+  padding: 30px;
   text-align: center;
-  border: 2px solid tomato
-}
-h2 {
-  color:tomato;
-  text-align:center;
-}
-p {
-  color: black;
-  margin: 30px;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-table {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th {
-  background-color: black;
+  font-size: 35px;
   color: white;
-  border: 1px solid black;
-  border-collapse: collapse;
 }
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: center;
-}
-table tr:nth-child(even) {
-  background-color: #eee;
-}
-table tr:nth-child(odd) {
-  background-color: #fff;
-}
-ul {
-  list-style-type: circle;
-}
-#menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
-#menu li {
+nav {
   float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
 }
-#menu li a {
-  display: block;
-  color: white;
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
   text-align: center;
-  padding: 16px;
-  text-decoration: none;
+  color: white;
 }
-#menu li a:hover {
-  background-color: #111111;
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
-  
