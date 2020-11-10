@@ -20,6 +20,19 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  margin: 0;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #111111;
 }
 article {
   float: left;
